@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { ProfileTagged, ProfileSaved, ProfileIndex, TopNav } from "./components/organisms";
-import { Login, Signup, Main, Profile, Landing, Setting, Direct, Explore } from "./components/pages";
+import { Landing } from "./components/landingComponents";
+import { ProfileTagged, ProfileSaved, ProfileIndex, TopNav } from "./components/instaComponents/organisms";
+import { Login, Signup, Main, Profile, Setting, Direct, Explore } from "./components/instaComponents/pages";
 import {
   Contract,
   Edit,
@@ -23,7 +24,7 @@ import {
   RequestMenu,
   Declaration,
   Violation,
-} from "../src/components/organisms/setting";
+} from "../src/components/instaComponents/organisms/setting";
 
 const Router = () => {
   return (
