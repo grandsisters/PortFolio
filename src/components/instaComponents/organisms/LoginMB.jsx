@@ -8,8 +8,8 @@ const Login_MB = () => {
     <MainBlock>
       <Logo src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png" />
       <LoginForm>
-        <IdInput placeholder="전화번호, 사용자 이름 또는 이메일" />
-        <PwInput placeholder="비밀번호" />
+        <IdInput placeholder="적지 않으셔도 됩니다!" />
+        <PwInput type="password" placeholder="아래 로그인 버튼을 눌러주세요!" />
         <Link to="/main">
           <LoginBtn>로그인</LoginBtn>
         </Link>

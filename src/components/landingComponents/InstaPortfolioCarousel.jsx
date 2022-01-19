@@ -20,16 +20,17 @@ const InstaPortfolioCarousel = () => {
   return (
     <EachPortfolio>
       <TextBoxOne>
+        <h2>인스타그램 클론코딩</h2>
         <h3>작업 인원:</h3>
         <span>1명</span>
         <h3>작업 기간:</h3>
-        <span>2~3주</span>
+        <span>2주</span>
       </TextBoxOne>
 
       <MainBox>
         <BtnBox>
           <Link to="/login">
-            <LinkBtn>인스타그램</LinkBtn>
+            <LinkBtn>GO!</LinkBtn>
           </Link>
         </BtnBox>
 
@@ -92,6 +93,10 @@ const LinkBtn = styled.button`
   color: #fff;
   font-weight: bold;
   font-size: 14px;
+
+  &:hover {
+    background: rgb(123, 199, 250);
+  }
 
   &:active {
     background: rgb(35, 107, 155);
